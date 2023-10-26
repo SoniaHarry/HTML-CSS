@@ -7,3 +7,75 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Roboto Slab',serif;
 }
+
+/*Footer styles*/
+.footer{
+    height: 400px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: "Ubuntu Condensed",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -4px;
+    /* padding:60px;  */
+    
+}
+
+.footer >  .logo-footer img{
+    width: 216px;
+    height: 100%;
+    /* filter: brightness(50%); */
+    opacity: 0.5;
+}
+
+.footer>.footer-phone-hours span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+    
+}
+.footer>.footer-phone-hours>.hours{
+    /* font-family: 'Ubuntu Condensed', sans-serif; */
+    color: #cea135;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+.footer>.links-wrapper{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.footer>.social-media-icons-wrapper{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* padding: 30px; */
+}
+.footer>.social-media-icons-wrapper a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.footer>.social-media-icons-wrapper a:hover {
+   color: #cea135;
+}
+.footer>.footer-copyright{
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: #858585;
+}
+.brand-info a{
+    text-transform:uppercase;
+}
+.brand-info >.brand-name span{
+    font-size: 17px;
+    letter-spacing: 4px;
+}
