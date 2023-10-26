@@ -75,7 +75,4 @@ h1,h2,h3,h4,h5,h6{
 .brand-info a{
     text-transform:uppercase;
 }
-.brand-info >.brand-name span{
-    font-size: 17px;
-    letter-spacing: 4px;
-}
+
