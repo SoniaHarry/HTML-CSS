@@ -20,3 +20,17 @@
     text-align: right;
     font-size: 1.25em;
 }
+
+.company-metadata-sidebar-wrapper>.company-details-wrapper i {
+    color: #cea135;
+}
+
+.center-btn-wrapper{
+    display:flex;
+    justify-content: center;
+}
+.nav-links{
+    display:grid;
+    grid-template-columns:1fr;
+    width:300px;
+}
